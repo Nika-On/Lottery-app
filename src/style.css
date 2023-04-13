@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+button {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+.selected-Numbers {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.options{
+  display: flex;
+}
+.options button{
+  margin-top: 10px;
+  width: 100px;
+}
